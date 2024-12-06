@@ -1,0 +1,33 @@
+.carousel__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .carousel__image img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel__buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel__buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__buttons button:hover {
+    background-color: #0056b3;
+  }
+  
